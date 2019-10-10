@@ -1,0 +1,69 @@
+*{
+    font-family: 'Playfair Display', serif;
+
+}
+.leftside{
+    position: absolute;
+    width:13%;
+    height: 100%; 
+    left: 0%;
+    background-color:goldenrod; 
+    top: 0%;
+
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: 100; 
+}
+   @keyframes colorchange {
+    from {background-color: white;}
+    to {background-color:goldenrod;}
+  } 
+ 
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    display: block;
+    padding-top: 22%;
+}
+
+a:hover{
+    color:#f1f1f1;
+}
+i{
+   color: black;
+   
+}
+i:hover{
+    color:#f1f1f1;
+
+} 
+.right{
+    position: absolute;
+    top: 0%;
+    width: 85%;
+    height: 100%;
+    right: 0%;
+    background-image:url("../img/Wallpaper-book.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+@media only screen and (max-width:1280px){
+    .leftside{
+      overflow:scroll;
+      width:15%;
+      font-size: 1.5em;
+    }
+
+    
+}
+
+
+

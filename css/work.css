@@ -1,0 +1,72 @@
+*{
+    font-family: 'Playfair Display', serif;
+
+}
+
+.back{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-image: url(../img/agenda-analysis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.front img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.front{
+    position: absolute;
+    top:10%;
+    left:5%;
+    width:90%;
+    height:90%;
+    background-color: white;
+    overflow: scroll;
+}
+.front a{
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+    margin: 32%;
+
+}
+.front a:hover{
+   
+    color: rgb(49, 198, 243);
+}
+
+.nav{
+    overflow: hidden;
+    background-color: white;
+    opacity: 0.5;
+}
+.nav a{
+    float:left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: burlywood;
+    color: white;
+}
+h3{
+    text-align: center;
+}
+
+@media only screen and (max-width:1080px){
+  .front{
+    top:16%;
+    width: 90%;
+    height: 70%;
+    overflow: scroll;
+  }
+  .back{
+      background-size: cover;
+  }
+  }

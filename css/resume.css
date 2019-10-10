@@ -1,0 +1,35 @@
+*{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.02em
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    overflow: hidden;
+    background-color: white;
+}
+.nav a{
+    float:left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: rgb(44, 43, 43);
+    color: white;
+}
+h1{
+    text-align: center;
+}
+
+@media only screen and (max-width:1080px){
+    .one{
+        overflow:scroll;
+    }
+     
+}

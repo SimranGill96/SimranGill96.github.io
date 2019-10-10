@@ -1,0 +1,47 @@
+*{
+    font-family: 'Playfair Display', serif;
+
+}
+.top{
+    position: absolute;
+    top:7%;
+    width:100%;
+    height:37%;
+    background-image: url(../img/references.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    overflow: hidden;
+    background-color: white;
+}
+.nav a{
+    float:left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: rgb(189, 28, 28);
+    color: white;
+}
+
+.btm{
+    position: absolute;
+    bottom: 1%;
+    width: 100%;     
+    height: 50%;
+    background-color: white;
+    
+}
+p{
+    text-align: center;
+    font-size: 1.1em;
+    color:  rgb(189, 28, 28);
+}

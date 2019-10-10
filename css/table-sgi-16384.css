@@ -1,0 +1,13 @@
+
+table {
+    position: absolute;
+    border: 2.5px;
+    height: 100%;
+    width: 100%;
+}
+
+td{
+    padding:28px;
+    border: 4px;
+    border-style: solid;
+}
